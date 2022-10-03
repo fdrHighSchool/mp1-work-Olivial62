@@ -2,9 +2,9 @@
 ## fall-22-mp1-work
 
 
-### Last Name:  
-### First Name: 
-### GitHub Username: 
+### Last Name:Larmand  
+### First Name:Olivia 
+### GitHub Username:Olivial62
 
 ---
 #### General Workflow: 
