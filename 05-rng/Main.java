@@ -6,13 +6,26 @@ class Main {
     Scanner s = new Scanner(System.in);
     
     Random random = new Random();
-    int number = random.nextInt(100) + 1;
-    System.out.println("What mode do you you want? \nEasy\nMedium\nHard");
-    int userGuess;
     
+    System.out.println("What mode do you you want? \nEasy\nMedium\nHard");
+    String mode = s.nextLine();
+    
+    int maximum;
+     if (mode.equals("Easy")) {
+        maximum=10;
+    }
+     else if (mode.equals("Medium")) {
+        maximum=50;
+    }
+     else {
+        maximum=100;
+    }
+    int number = random.nextInt(maximum) + 1;
 
+    int userGuess;
     System.out.print("Enter your guess: ");
     int playerGuess = s.nextInt(); 
+    
 
         // if the player guessed incorrectly
         if(playerGuess != number) {
