@@ -11,13 +11,13 @@ class Main {
     int maximum;
     if (mode.equals("Easy")) {
         maximum = 10;
-    }
+    }//end of if statement
     else if (mode.equals("Medium")) {
         maximum = 50;
-    }
+    }//end of if else
     else {
         maximum = 100;
-    }
+    }//end of else
     
     number = (int)(Math.random() * maximum + 1);
     int userGuess;
